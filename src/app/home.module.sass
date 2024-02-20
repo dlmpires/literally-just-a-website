@@ -1,0 +1,67 @@
+.main
+  height: 100vh
+  width: 100vw
+
+  .hero
+    display: flex
+    height: 100vh
+    width: 100vw
+    color : var(--color-primary)
+
+    nav
+      position: absolute
+      display: flex
+      justify-content: space-between
+      align-items: center
+      height: 15vh
+      width: 100%
+
+      .nav_container
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 40vw
+
+        .menu
+          display: flex
+          align-items: center
+          font-family: "Italiana", serif 
+          margin: 0 2vw
+
+        .stroke
+          position: relative
+          display: inline-block
+          width: 100%
+          margin: 0 1vw
+          border-top: 2px solid var(--color-primary)
+
+        img
+          margin: 0 1vw
+
+      .nav_profile
+        a
+          border: 2px solid var(--color-primary)      
+
+    .container
+      height: 100%
+      width: 40vw
+      background: url('/hero-container.png')
+      background-size: contain
+       
+      .name
+        display: flex
+        justify-content: center
+        width: 40vw
+
+        margin: 15vh 0
+        img
+          width: 35vw
+      .descrition
+
+      .book
+
+    .carroussel
+      height: 100%
+      width: 60vw
+      background: url('/hero-background.png')
+      background-size: cover

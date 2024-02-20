@@ -1,94 +1,59 @@
-import Image from "next/image";
-import styles from "./page.module.sass";
+import styles from "./home.module.sass";
+import { Menu } from "lucide-react"
+
+const LS = "https://prod.liveshare.vsengsaas.visualstudio.com/join?5045B3F7B28DCB1D51A19323CAC355C3876F"
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+      <div className={styles.hero}>
+        <nav>
+          <div className={styles.nav_container}>
+            <div className={styles.menu}>
+              <Menu />
+              <h1>MENU</h1>  
+            </div>
+
+            <div className={styles.stroke}></div>
+
+            <img src="/logo.svg" />
+          </div>
+
+          <div className={styles.nav_profile}>
+            <a>MEU PERFIL</a>
+          </div>
+        </nav>
+
+        <div className={styles.container}>
+          <div className={styles.name}>
+            <img src="/name.png" alt="Name" />
+          </div>
+
+          <div className={styles.description}>
+            <h2>
+              Localizado no coração de Lisboa, o Tranquil Hotel dispõe da alma
+              cultural da cidade Lisboeta, desde o Fado à gastronomia.
+            </h2>
+          </div>
+
+          <div className={styles.book}>
+            <div>Data</div>
+            <div>Tipo de Quarto</div>
+            <div>Hóspedes</div>
+            <div>PROCURAR</div>
+          </div>
+
+          {/* <a href="./">Home</a>
+          <a href="./rooms">Rooms</a>
+          <a href="./services">Services</a>
+          <a href="./about">About Us</a> */}
+
+          <a href={LS}>asdfhasdifhj</a>
         </div>
-      </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        <div className={styles.carroussel}>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        </div>
       </div>
     </main>
   );
