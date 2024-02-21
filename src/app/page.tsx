@@ -1,7 +1,7 @@
 import styles from "./home.module.sass";
 import { Menu } from "lucide-react"
 
-const LS = "https://prod.liveshare.vsengsaas.visualstudio.com/join?5045B3F7B28DCB1D51A19323CAC355C3876F"
+const LS = "https://prod.liveshare.vsengsaas.visualstudio.com/join?31D49708CD6AE7FC9D1FE6823127836BD419";
 
 export default function Home() {
   return (
@@ -33,26 +33,25 @@ export default function Home() {
             <h2>
               Localizado no coração de Lisboa, o Tranquil Hotel dispõe da alma
               cultural da cidade Lisboeta, desde o Fado à gastronomia.
-            </h2>
-          </div>
+            </h2> </div>
 
-          <div className={styles.book}>
-            <div>Data</div>
-            <div>Tipo de Quarto</div>
-            <div>Hóspedes</div>
-            <div>PROCURAR</div>
-          </div>
 
           {/* <a href="./">Home</a>
           <a href="./rooms">Rooms</a>
           <a href="./services">Services</a>
-          <a href="./about">About Us</a> */}
+        <a href="./about">About Us</a> */}
 
           <a href={LS}>asdfhasdifhj</a>
         </div>
 
         <div className={styles.carroussel}>
 
+        </div>
+        <div className={styles.book}>
+          <div>Data</div>
+          <div>Tipo de Quarto</div>
+          <div>Hóspedes</div>
+          <div className={styles.search}>PROCURAR</div>
         </div>
       </div>
     </main>
