@@ -21,12 +21,19 @@
         justify-content: space-between
         align-items: center
         width: 40vw
-
+        
         .menu
           display: flex
           align-items: center
           font-family: "Italiana", serif 
           margin: 0 2vw
+          font-size: 4vh
+
+          svg
+            padding-right: 5px
+            stroke-width: 1px
+            stroke-linecap: square
+            stroke-linejoin: square
 
         .stroke
           position: relative
@@ -36,13 +43,21 @@
           border-top: 2px solid var(--color-primary)
 
         img
+          
           margin: 0 1vw
 
       .nav_profile
         a
-          border: 2px solid var(--color-primary)      
+          margin: 0 2vw
+          padding: 1vh
+          font-size: 3vh
+          border: 1px solid var(--color-primary)      
+          border-radius: 2px
 
     .container
+      display: flex
+      flex-direction: column
+      align-items: center
       height: 100%
       width: 40vw
       background: url('/hero-container.png')
@@ -52,11 +67,15 @@
         display: flex
         justify-content: center
         width: 40vw
+        margin-top: 15vh
 
-        margin: 15vh 0
         img
           width: 35vw
-      .descrition
+
+      .description
+        color: var(--color-text-gray)
+        font-family: Imbue
+        width: 35vw
 
 
     .carroussel
@@ -71,8 +90,8 @@
     justify-content: space-around
     align-items: center
     height: 10vh
-    width: 60vw
-    margin: 75vh 0 0 10vw
+    width: 75vw
+    margin: 75vh 0 0 2.5vw
     background-color: var(--color-primary)
     color: var(--color-text)
 

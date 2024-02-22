@@ -2,6 +2,14 @@
   "name": "web-tranquil",
   "version": "0.1.0",
   "private": true,
+  "author": { 
+    "name": "GmsGarcia"
+  },
+  "contributors": [ 
+    {
+      "name": "Diogo Pires"
+    }
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",

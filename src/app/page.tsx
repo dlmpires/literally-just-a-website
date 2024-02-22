@@ -1,8 +1,6 @@
 import styles from "./home.module.sass";
 import { Menu } from "lucide-react"
 
-const LS = "https://prod.liveshare.vsengsaas.visualstudio.com/join?31D49708CD6AE7FC9D1FE6823127836BD419";
-
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -10,7 +8,7 @@ export default function Home() {
         <nav>
           <div className={styles.nav_container}>
             <div className={styles.menu}>
-              <Menu />
+              <Menu size={52}/>
               <h1>MENU</h1>  
             </div>
 
@@ -33,15 +31,8 @@ export default function Home() {
             <h2>
               Localizado no coração de Lisboa, o Tranquil Hotel dispõe da alma
               cultural da cidade Lisboeta, desde o Fado à gastronomia.
-            </h2> </div>
-
-
-          {/* <a href="./">Home</a>
-          <a href="./rooms">Rooms</a>
-          <a href="./services">Services</a>
-        <a href="./about">About Us</a> */}
-
-          <a href={LS}>asdfhasdifhj</a>
+            </h2> 
+          </div>
         </div>
 
         <div className={styles.carroussel}>
