@@ -1,0 +1,83 @@
+.main
+  height: 100vh
+  width: 100vw
+
+  .hero
+    display: flex
+    height: 100vh
+    width: 100vw
+    color : var(--color-primary)
+    background: url('/rooms/background.png')
+    background-size: cover
+
+    nav
+      position: absolute
+      display: flex
+      justify-content: space-between
+      align-items: center
+      height: 15vh
+      width: 100%
+
+      .nav_container
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 100vw
+        
+        .menu
+          display: flex
+          align-items: center
+          font-family: "Italiana", serif 
+          margin: 0 2vw
+          font-size: 4vh
+
+          svg
+            padding-right: 5px
+            stroke-width: 1px
+            stroke-linecap: square
+            stroke-linejoin: square
+
+        .stroke
+          position: relative
+          display: inline-block
+          width: 100%
+          margin: 0 1vw
+          border-top: 2px solid var(--color-primary)
+
+        img
+          margin: 0 2vw
+    
+    .title
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        height: 85vh
+        width: 100vw
+        h1
+            margin: 0
+            font-size: 8vw
+
+        hr
+            width: 25vw
+            border-color: var(--color-primary)
+        span
+            display: flex
+            align-items: center
+            h2
+                margin: 0 .5vw
+                font-size: 4vw
+                vertical-align: center
+                &:nth-child(1)
+                    font-family: Italiana
+                    font-weight: lighter
+                    color: var(--color-container)
+                &:nth-child(2)
+                    font-family: Cinzel
+                    
+                &:nth-child(3)
+                    font-family: Italianno
+                    font-weight: lighter
+                    font-size: 5vw
+                    color: var(--color-primary-dark)
+                    
