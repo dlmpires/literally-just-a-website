@@ -1,30 +1,41 @@
+'use client'
+import React from "react";
+import Link from "next/link";
 import styles from "./home.module.sass";
 import { Menu } from "lucide-react"
+import NavMenu from "./components/nav_menu/nav_menu";
 
 export default function Home() {
+  const [show, setShow] = React.useState(false)
+
+  const toggleNavMenu = () => {
+    setShow(!show)
+  }
+
   return (
     <main className={styles.main}>
+      {show ? <NavMenu onNavMenuToggle={toggleNavMenu}/> : null}
       <div className={styles.hero}>
         <nav>
           <div className={styles.nav_container}>
             <div className={styles.menu}>
-              <Menu size={52}/>
+              <Menu size={52} onClick={toggleNavMenu} />
               <h1>MENU</h1>  
             </div>
 
             <div className={styles.stroke}></div>
 
-            <img src="/logo.svg" />
+            <img draggable="false" src="/logo.svg" />
           </div>
 
           <div className={styles.nav_profile}>
-            <a>MEU PERFIL</a>
+            <Link href="/profile">MEU PERFIL</Link>
           </div>
         </nav>
 
         <div className={styles.container}>
           <div className={styles.name}>
-            <img src="/name.png" alt="Name" />
+            <img draggable="false" src="/name.png" alt="Name" />
           </div>
 
           <div className={styles.description}>

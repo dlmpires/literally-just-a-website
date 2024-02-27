@@ -1,0 +1,33 @@
+.nav_menu
+  position: fixed
+  display: flex
+  flex-direction: column
+  
+  height: 100vh
+  width: 100vw
+  background: url("/menu-background.png")
+  background-size: cover
+  z-index: 10
+  color : var(--color-primary)
+
+  .nav_toggler
+    display: flex
+    align-items: center
+    font-family: "Italiana", serif
+    margin: 0 2vw
+    font-size: 4vh
+
+  .nav_links
+    display: flex
+    flex-direction: column
+
+    a 
+      width: fit-content
+      color: var(--color-container)
+      text-decoration: none
+      font-family: Cinzel
+      font-size: 8vh
+      margin: 1vh 6vw
+
+      &:hover
+        text-decoration: underline

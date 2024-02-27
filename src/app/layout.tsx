@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Italiana, Cinzel, Italianno, Forum } from "next/font/google";
 import "./globals.sass";
 
-const mFont = Forum({weight: '400', subsets: ["latin"]});
+const mFont = Forum({ weight: '400', subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Grand Tranquil Hotel",
