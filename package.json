@@ -2,10 +2,10 @@
   "name": "web-tranquil",
   "version": "0.1.0",
   "private": true,
-  "author": { 
+  "author": {
     "name": "GmsGarcia"
   },
-  "contributors": [ 
+  "contributors": [
     {
       "name": "Diogo Pires"
     }
@@ -17,6 +17,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@splidejs/react-splide": "^0.7.12",
+    "@splidejs/splide": "^4.1.4",
     "lucide-react": "^0.334.0",
     "next": "14.1.0",
     "react": "^18",

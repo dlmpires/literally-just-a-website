@@ -1,18 +1,22 @@
 "use client";
+// @ts-ignore
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 import React from "react";
 import RoomCard from "../room_card/room_card";
 import styles from "./rooms_carroussel.module.sass";
+
 export default function RoomsCarroussel() {
   const [list, setList] = React.useState([" a ", " b ", " c "]);
   const [index, setIndex] = React.useState(0);
   const handlePrevious = () => {
     const newIndex = index - 1;
-    setIndex(newIndex < 0 ? list.length : newIndex);
+    setIndex(newIndex < 0 ? list.length - 1 : newIndex);
   };
 
   const handleNext = () => {
     const newIndex = index + 1;
-    setIndex(newIndex > list.length ? 0 : newIndex);
+    setIndex(newIndex > list.length - 1 ? 0 : newIndex);
   };
   return (
     <div className={styles.rooms_carroussel}>
@@ -20,20 +24,45 @@ export default function RoomsCarroussel() {
         <h1 className={styles.title}>Quartos de Hóspede</h1>
         <a className={styles.see_all}>VER TODOS</a>
       </div>
-
       <div className={styles.carroussel}>
-        <button onClick={handlePrevious}>Previous</button>
-        <button onClick={handleNext}>Next</button>
-        <p>
-          <a>{index - 1 < 0 ? list[list.length - 1] : list[index - 1]} |</a>
-          <a>{list[index]} |</a>
-          <a>{index + 1 >= list.length ? list[0] : list[index]}</a>
-        </p>
-        <p>
-          <a>{index - 1 < 0 ? list.length - 1 : index - 1} |</a>
-          <a>{index} |</a>
-          <a>{index + 1 >= list.length ? 0 : index}</a>
-        </p>
+        <Splide
+          options={{
+            type: "loop",
+            focus: "center",
+            height: "70vh",
+            width: "60vw",
+            perPage: 3,
+          }}
+          aria-label="My Favorite Images"
+        >
+          <SplideSlide>
+            <RoomCard
+              room_img="/menu-background.png"
+              room_title="Quarto Premier"
+              room_bed="1 king-size"
+              room_size="49m^2"
+              room_capacity="2 adults"
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <RoomCard
+              room_img="/menu-background.png"
+              room_title="Quarto Deluxe"
+              room_bed="1 king-size"
+              room_size="49m^2"
+              room_capacity="2 adults"
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <RoomCard
+              room_img="/menu-background.png"
+              room_title="Quarto Superior"
+              room_bed="1 king-size"
+              room_size="49m^2"
+              room_capacity="2 adults"
+            />
+          </SplideSlide>
+        </Splide>
       </div>
     </div>
   );
