@@ -30,7 +30,7 @@ export default function RoomsCarroussel() {
             type: "loop",
             focus: "center",
             height: "70vh",
-            width: "60vw",
+            width: "100vw",
             perPage: 3,
           }}
           aria-label="My Favorite Images"

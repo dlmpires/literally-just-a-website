@@ -6,10 +6,6 @@ import styles from "./nav_menu.module.sass"
 
 export default function NavMenu(props) {
     const [menu, setMenu] = React.useState(false) // false - closed / true - open 
-
-    function toggleMenu(props) {
-        setMenu(!menu)
-    }
     
     return (
         <div id="nav_menu" className={`${styles.nav_menu} ${menu ? styles.open : ''} `}>
