@@ -3,93 +3,165 @@
   width: 100vw
 
   .hero
-    display: flex
     height: 100vh
     width: 100vw
-    color : var(--color-primary)
 
-    nav
-      position: absolute
+    &.split
       display: flex
-      justify-content: space-between
-      align-items: center
-      height: 15vh
-      width: 100%
+      color : var(--color-primary)
 
-      .nav_container
+      nav
+        position: absolute
         display: flex
         justify-content: space-between
         align-items: center
-        width: 40vw
-        
-        .menu
+        height: 15vh
+        width: 100%
+
+        .nav_container
           display: flex
+          justify-content: space-between
           align-items: center
-          font-family: "Italiana", serif 
-          margin: 0 2vw
-          font-size: 4vh
-
-          svg
-            padding-right: 5px
-            stroke-width: 1px
-            stroke-linecap: square
-            stroke-linejoin: square
-
-        .stroke
-          position: relative
-          display: inline-block
-          width: 100%
-          margin: 0 1vw
-          border-top: 2px solid var(--color-primary)
-
-        img
+          width: 40vw
           
-          margin: 0 1vw
+          .menu
+            display: flex
+            align-items: center
+            font-family: "Italiana", serif 
+            margin: 0 2vw
+            font-size: 4vh
 
-      .nav_profile
-        a
-          color: var(--color-primary)
-          text-decoration: none
-          margin: 0 2vw
-          padding: 1vh
-          font-size: 3vh
-          border: 1px solid var(--color-primary)      
-          border-radius: 2px
+            svg
+              padding-right: 5px
+              stroke-width: 1px
+              stroke-linecap: square
+              stroke-linejoin: square
 
-          &:hover
-            color: var(--color-text)
-            background-color: var(--color-primary)
+          .stroke
+            position: relative
+            display: inline-block
+            width: 100%
+            margin: 0 1vw
+            border-top: 2px solid var(--color-primary)
 
-    .container
-      display: flex
-      flex-direction: column
-      align-items: center
-      height: 100%
-      width: 40vw
-      background: url('/hero-container.png')
-      background-size: contain
-       
-      .name
+          img
+            
+            margin: 0 1vw
+
+        .nav_profile
+          a
+            color: var(--color-primary)
+            text-decoration: none
+            margin: 0 2vw
+            padding: 1vh
+            font-size: 3vh
+            border: 1px solid var(--color-primary)      
+            border-radius: 2px
+
+            &:hover
+              color: var(--color-text)
+              background-color: var(--color-primary)
+
+      .container
         display: flex
-        justify-content: center
+        flex-direction: column
+        align-items: center
+        height: 100%
         width: 40vw
-        margin-top: 15vh
+        background: url('/hero-container.png')
+        background-size: contain
+         
+        .name
+          display: flex
+          justify-content: center
+          width: 40vw
+          margin-top: 15vh
 
-        img
+          img
+            width: 35vw
+
+        .description
+          color: var(--color-text-gray)
+          font-family: Imbue
           width: 35vw
 
-      .description
-        color: var(--color-text-gray)
-        font-family: Imbue
-        width: 35vw
 
+      .carroussel
+        height: 100%
+        width: 60vw
+        background: url('/hero-background.png')
+        background-size: cover
 
-    .carroussel
-      height: 100%
-      width: 60vw
-      background: url('/hero-background.png')
-      background-size: cover
+    &.wide
+        display: flex
+        color : var(--color-primary)
+        background: url('/rooms/background.png')
+        background-size: cover
+        
+        nav
+          position: absolute
+          display: flex
+          justify-content: space-between
+          align-items: center
+          height: 15vh
+          width: 100%
 
+          .nav_container
+            display: flex
+            justify-content: space-between
+            align-items: center
+            width: 100vw
+
+            .menu
+              display: flex
+              align-items: center
+              font-family: "Italiana", serif
+              margin: 0 2vw
+              font-size: 4vh
+
+            .stroke
+              position: relative
+              display: inline-block
+              width: 100%
+              margin: 0 1vw
+              border-top: 2px solid var(--color-primary)
+
+            img
+              margin: 0 2vw
+        .title
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            height: 85vh
+            width: 100%
+
+            h1
+                margin: 0
+                font-size: 8vw
+
+            hr
+                width: 25vw
+                border-color: var(--color-primary)
+            span
+                display: flex
+                align-items: center
+                h2
+                    margin: 0 .5vw
+                    font-size: 4vw
+                    vertical-align: center
+                    &:nth-child(1)
+                        font-family: Italiana
+                        font-weight: lighter
+                        color: var(--color-container)
+                    &:nth-child(2)
+                        font-family: Cinzel
+                        
+                    &:nth-child(3)
+                        font-family: Italianno
+                        font-weight: lighter
+                        font-size: 5vw
+                        color: var(--color-primary-dark)
   .book
     position: absolute
     display: flex
@@ -101,5 +173,4 @@
     background-color: var(--color-primary)
     color: var(--color-text)
 
-    .search
-      border: 2px solid var(--color-primary-dark)
+  
