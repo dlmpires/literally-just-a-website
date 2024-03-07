@@ -29,7 +29,7 @@ export default function RoomsCarroussel() {
           options={{
             type: "loop",
             focus: "center",
-            height: "70vh",
+            height: "50vh",
             width: "100vw",
             perPage: 3,
           }}

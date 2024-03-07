@@ -1,13 +1,31 @@
 .rooms_carroussel
-    height: 90vh
+    height: 100vh
 
     .header
         display: flex
-        justify-content: space-between
+        width: 100vw
+        justify-content: space-around
+        align-items: center
+        margin: 3vh 0
+
         .title
             font-family: Italianno
+            font-size: 3.5rem
+            margin-top: 5vh 
             color: var(--color-text)
+
         .see_all
+            height: fit-content
+            padding: 1vh
             background-color: var(--color-primary)
+            font-size: 1.5rem
+            border: 1px solid var(--color-text)
+            border-radius: 3px
+
     .carroussel
+        width: 100vw
         background-color: var(--color-primary-dark)
+
+        li 
+            display: flex
+            justify-content: center

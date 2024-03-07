@@ -73,7 +73,7 @@ export default function Hero(props: { main: boolean; page?: string }) {
                   <h1>MENU</h1>
                 </div>
                 <div className={styles.stroke}></div>
-                <img src="/logo.svg" />
+                <img draggable="false" src="/logo.svg" />
               </div>
             </nav>
 
