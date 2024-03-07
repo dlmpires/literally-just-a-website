@@ -1,3 +1,4 @@
+"use client"
 import { Menu } from "lucide-react";
 import Link from "next/link";
 import React from "react";
@@ -7,12 +8,17 @@ import styles from "./hero.module.sass";
 export default function Hero(props: { main: boolean; page?: string }) {
   const [show, setShow] = React.useState(false);
 
+
   const toggleNavMenu = () => {
     setShow(!show);
   };
 
+  React.useEffect(() => {
+    document.body.style.overflow = show ? "hidden" : "scroll";
+  })
+
   return (
-    <section className={styles.section}>
+    <section className={styles.section} >
       {show ? <NavMenu onNavMenuToggle={toggleNavMenu} /> : null}
       {props.main
         ? (
