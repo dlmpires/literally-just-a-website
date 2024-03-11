@@ -26,7 +26,7 @@ export default function Hero(props: { main: boolean; page?: string }) {
               <div className={styles.nav_container}>
                 <div className={styles.menu}>
                   <Menu size={52} onClick={toggleNavMenu} />
-                  <h1>MENU</h1>
+                  <h1 onClick={toggleNavMenu}>MENU</h1>
                 </div>
 
                 <div className={styles.stroke}></div>
@@ -69,7 +69,7 @@ export default function Hero(props: { main: boolean; page?: string }) {
               <div className={styles.nav_container}>
                 <div className={styles.menu}>
                   <Menu size={52} onClick={toggleNavMenu} />
-                  <h1>MENU</h1>
+                  <h1 onClick={toggleNavMenu}>MENU</h1>
                 </div>
                 <div className={styles.stroke}></div>
                 <img draggable="false" src="/logo.svg" />
