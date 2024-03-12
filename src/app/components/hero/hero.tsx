@@ -4,18 +4,35 @@ import Link from "next/link";
 import React from "react";
 import NavMenu from "../nav_menu/nav_menu";
 import styles from "./hero.module.sass";
+import { ChevronDown } from 'lucide-react';
 
+
+// Função principal pa componente Hero
 export default function Hero(props: { main: boolean; page?: string }) {
+    // Estado pa controla visibilidade di menu
   const [show, setShow] = React.useState(false);
 
+    // Função pa muda visibilidade di menu
   const toggleNavMenu = () => {
     setShow(!show);
   };
 
+    // Função pa determina estilo di fundo baseado na página
+  function bgStyle() {
+    switch (props.page) {
+      case "Alojamentos":
+        return styles.alojamentos
+      case "Serviços":
+        return styles.serviços
+    }
+  }
+
+    // Efeito pa controla overflow di corpo di documento ku menu aberto
   React.useEffect(() => {
     document.body.style.overflowY = show ? "hidden" : "scroll";
   });
 
+    // Renderização di componente Hero
   return (
     <section className={styles.section}>
       {show ? <NavMenu onNavMenuToggle={toggleNavMenu} /> : null}
@@ -64,7 +81,7 @@ export default function Hero(props: { main: boolean; page?: string }) {
           </div>
         )
         : (
-          <div className={`${styles.hero} ${styles.wide}`}>
+          <div className={`${styles.hero} ${styles.wide} ${bgStyle()}`}>
             <nav className={styles.nav}>
               <div className={styles.nav_container}>
                 <div className={styles.menu}>
@@ -85,6 +102,8 @@ export default function Hero(props: { main: boolean; page?: string }) {
                 <h2>Hotel</h2>
               </span>
             </div>
+            <ChevronDown className={styles.chevronDown}/>
+
           </div>
         )}
     </section>

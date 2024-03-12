@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Imbue:opsz@10..100&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap')
-  
+
 :root
   --color-primary: #DAC0A3
   --color-primary-dark: #B99470
@@ -14,14 +14,30 @@
   --color-background-dark: #131313
   --color-text-gray: #BBBBBB
   --color-container: #FFFFFF
-  
-body 
+
+/* width */
+::-webkit-scrollbar
+  width: 10px
+
+/* Track */
+::-webkit-scrollbar-track
+  background: #f1f1f1
+
+/* Handle */
+::-webkit-scrollbar-thumb
+  background: #888
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover
+  background: #555
+
+body
   /* background-color: var(--color-primary-dark) */
   font-family: Forum, serif
   margin: 0
   background-color: var(--color-primary-dark)
 
-* 
+*
   user-select: none
 
 svg
