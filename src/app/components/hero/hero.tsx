@@ -76,7 +76,7 @@ export default function Hero(props: { main: boolean; page?: string }) {
               <div>Data</div>
               <div>Tipo de Quarto</div>
               <div>Hóspedes</div>
-              <div className={styles.search}>PROCURAR</div>
+              <p className={styles.search}>PROCURAR</p>
             </div>
           </div>
         )
