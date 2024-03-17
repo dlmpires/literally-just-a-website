@@ -1,39 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<h1 align="center">
+  <br>
+  <a href="https://github.com/GmsGarcia/web-tranquil"><img src="https://raw.githubusercontent.com/GmsGarcia/web-tranquil/fa44b4ff71c867781bb674315fcfb3de21012ef9/public/logo.svg?token=AO3C7GCCVH6IOIXY5J4PFB3F65LNC" alt="Markdownify" width="200"></a>
+  <br>
+  Grand Tranquil Hotel
+  <br>
+</h1>
 
-First, run the development server:
+<h3 align="center">GTH FrontEnd developed with React (Next.js) & TypeScript.</h3>
+
+<p align="center">
+  <a href="#description">Description</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#related">Related</a> •
+  <a href="#license">License</a>
+</p>
+
+![screenshot](https://raw.githubusercontent.com/GmsGarcia/web-tranquil/master/public/demo.png?token=GHSAT0AAAAAACNO7WSPPHEGKOQUZQZKVEJSZPXNFCA)
+
+## Description
+
+This is a fictional Hotel's website under the name of 'Grand Tranquil Hotel'.
+
+## How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone this repository
+$ git clone https://github.com/GmsGarcia/web-tranquil
+
+# Go into the repository
+$ cd web-tranquil-master
+
+# Install dependencies
+$ npm install
+
+# Run the app in development mode
+$ npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> **Note**
+> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Related
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[express-tranquil](https://github.com/dlmpires/express-tranquil) - Backend requried
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
+MIT
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-GARCIA CABRAO GARCIA CABRAO
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA CARALHO CARALHO CARALHO CARALHO CARALHO NAO AGUENTO A DOR DE PENSAR É AVASSALADORA EU NAO AGUENTO U ESTOU FARTO EU ESTOU A SUCUMBIR A MINHA MENTE ESTA A FUGIR ENQUANTO EU FICO EU NAO ESTOU BEM NEM ESTOU MAL EU NAO EXISTO EU SOU UM MERO PIGMENTO DA MINHA IMAGINAÇÃO INEXISTENTE EU VOU DESTA PARA MELHOR ADEUS AMIGOS ADUES PESSOAS QUE NAO POSSO CHAMAR DE AMIGOS ADEUS ADUES ADEUS EU NAO TENHO AMIGOS EU NAO SOU NINGUEM ADEUS PIRES ADEUS EU MESMO PIRES E EU SOMOS MESMOS IGUAIS PESSOA!
+> [gmsgarcia.me](https://gmsgarcia.me) &nbsp;&middot;&nbsp;
+> GitHub [@GmsGarcia](https://github.com/GmsGarcia) &nbsp;&middot;&nbsp;
+> GitHub [@dlmpires](https://github.com/dlmpires)
