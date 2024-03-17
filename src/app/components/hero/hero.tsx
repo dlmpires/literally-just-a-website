@@ -6,7 +6,6 @@ import NavMenu from "../nav_menu/nav_menu";
 import styles from "./hero.module.sass";
 import { ChevronDown } from 'lucide-react';
 
-
 // Função principal pa componente Hero
 export default function Hero(props: { main: boolean; page?: string }) {
     // Estado pa controla visibilidade di menu
@@ -24,6 +23,8 @@ export default function Hero(props: { main: boolean; page?: string }) {
         return styles.alojamentos
       case "Serviços":
         return styles.serviços
+      case "Sobre Nós":
+        return styles.about
     }
   }
 
