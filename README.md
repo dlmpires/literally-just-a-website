@@ -34,3 +34,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+GARCIA CABRAO GARCIA CABRAO
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA CARALHO CARALHO CARALHO CARALHO CARALHO NAO AGUENTO A DOR DE PENSAR É AVASSALADORA EU NAO AGUENTO U ESTOU FARTO EU ESTOU A SUCUMBIR A MINHA MENTE ESTA A FUGIR ENQUANTO EU FICO EU NAO ESTOU BEM NEM ESTOU MAL EU NAO EXISTO EU SOU UM MERO PIGMENTO DA MINHA IMAGINAÇÃO INEXISTENTE EU VOU DESTA PARA MELHOR ADEUS AMIGOS ADUES PESSOAS QUE NAO POSSO CHAMAR DE AMIGOS ADEUS ADUES ADEUS EU NAO TENHO AMIGOS EU NAO SOU NINGUEM ADEUS PIRES ADEUS EU MESMO PIRES E EU SOMOS MESMOS IGUAIS PESSOA!

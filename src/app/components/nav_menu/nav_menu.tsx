@@ -11,7 +11,7 @@ export default function NavMenu(props) {
         <div id="nav_menu" className={`${styles.nav_menu} ${menu ? styles.open : ''} `}>
             <div className={styles.nav_toggler}>
                 <X size={52} onClick={props.onNavMenuToggle} />
-                <h1>MENU</h1>
+                <h1 onClick={props.onNavMenuToggle}>MENU</h1>
             </div>
 
             <div className={styles.nav_links}>

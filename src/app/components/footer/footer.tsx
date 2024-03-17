@@ -36,7 +36,7 @@ export default function Rooms() {
         <Linkedin />
         <AtSign />
       </div>
-      <span className={styles.copyright}>Copyright © 2024 Tranquil Hotels Inc.</span>
+      <a className={styles.copyright}>Copyright © 2024 Tranquil Hotels Inc.</a>
     </footer>
   );
 }

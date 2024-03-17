@@ -20,6 +20,7 @@ export default function RoomsCarroussel(props: { title: string }) {
             focus: "center",
             width: "95vw",
             perPage: 3,
+            
           }}
           aria-label="My Favorite Images"
         >
