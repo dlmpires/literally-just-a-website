@@ -26,9 +26,7 @@ export default function Services() {
                   com uma refeição ligeira enquanto descontrai no lindo centro da Cidade de Lisboa.</p>
               </div>
 
-              <div className={styles.divExplore}>
-                  <p className={styles.explorebtn}>Explorar</p>
-              </div>
+              <div className={styles.divExplore}>Explorar</div>
             </div>
           </div>
         </div>
@@ -47,9 +45,7 @@ export default function Services() {
               Lisboa através de ingredientes biológicos regionais.</p>
             </div>
 
-            <div className={styles.divExplore}>
-                <p className={styles.explorebtn}>Explorar</p>
-            </div>
+            <div className={styles.divExplore}>Explorar</div>
           </div>
           <img src="/services/serviceSpa.png" alt="Spa Image" className={styles.spaIMG}/>
           
@@ -71,9 +67,7 @@ export default function Services() {
                 com gráficos e som de alta definição. Venha-se divertir connosco!</p>
               </div>
 
-              <div className={styles.divExplore}>
-                  <p className={styles.explorebtn}>Explorar</p>
-              </div>
+              <div className={styles.divExplore}>Explorar</div>
             </div>
           </div>
         </div>
