@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/GmsGarcia/web-tranquil"><img src="https://raw.githubusercontent.com/GmsGarcia/web-tranquil/fa44b4ff71c867781bb674315fcfb3de21012ef9/public/logo.svg?token=AO3C7GCCVH6IOIXY5J4PFB3F65LNC" alt="Markdownify" width="200"></a>
+  <a href="https://github.com/GmsGarcia/web-tranquil"><img src="https://raw.githubusercontent.com/GmsGarcia/web-tranquil/fa44b4ff71c867781bb674315fcfb3de21012ef9/public/logo.svg?token=AO3C7GCCVH6IOIXY5J4PFB3F65LNC" alt="Grand Tranquil Hotel" width="200"></a>
   <br>
   Grand Tranquil Hotel
   <br>
