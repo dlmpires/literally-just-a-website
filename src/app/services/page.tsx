@@ -11,7 +11,7 @@ export default function Services() {
       <Hero main={false} page="Serviços" />
       <div className={styles.services}>
 
-        <div className={`${styles.roofTop} ${styles.martop}`}>
+        <div className={styles.roofTop}>
           <div className={styles.rooftopDiv}>
             <img src="/services/serviceRooftop.png" alt="RoofTop Image" className={styles.rooftopIMG}/>
             <div className={styles.rooftopContainer}>
@@ -52,7 +52,7 @@ export default function Services() {
         </div>
         </div>
 
-        <div className={`${styles.roofTop} ${styles.marbot}`}>
+        <div className={styles.roofTop}>
           <div className={styles.rooftopDiv}>
             <img src="/services/serviceCasino.png" alt="Casino Image" className={styles.rooftopIMG}/>
             <div className={styles.rooftopContainer}>

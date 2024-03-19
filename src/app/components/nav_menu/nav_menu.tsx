@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { X } from "lucide-react"
 import styles from "./nav_menu.module.sass"
 
+// Komponent di menu di navegaçon
 export default function NavMenu(props) {
     const [menu, setMenu] = React.useState(false) // false - closed / true - open 
 
