@@ -103,8 +103,7 @@ export default function Hero(props: { main: boolean; page?: string }) {
                 <h2>Hotel</h2>
               </span>
             </div>
-            <ChevronDown className={styles.chevronDown}/>
-
+            {/* chevron - <ChevronDown className={styles.chevronDown}/> */}
           </div>
         )}
     </section>

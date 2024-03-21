@@ -8,97 +8,89 @@
         display: flex
         flex-direction: column
         justify-content: center
+        align-items: center
         background-image: url('/content-background.png')
         background-size: contain
         background-repeat: no-repeat
         background-position: bottom
-        margin-top: 1%
-        margin-bottom: 1% 
 
-
-        .rooftopIMG 
-            padding: 2%
-            height: 85vh
-
-        .rooftopContainer 
-            background-color: #563F28
-            height: 85vh
-            width: 35vw
-            background-image: url('/services/vector.png')
-            background-size: cover
-            background-position: center
-            background-repeat: no-repeat
-
-        .rooftopDiv
-            margin-left: 1%
+        .service
             display: flex
-            align-items: center
+            height: 75vh
+            width: 90%
+            gap: 5%
+            margin: 2%
 
-        .divHeader 
-            display: flex
-            height: 18vh
-            margin-left: 3%
+            div 
+     
+                background-size: cover
+                background-position: center
+                background-repeat: no-repeat
 
-        .martiniIMG 
-            height: 12vh
-            padding: 5%
+                &.img 
+                    width: 55%
+                
+                &.rooftop
+                    background-image: url('/services/serviceRooftop.png')
+                
+                &.spa
+                    background-image: url('/services/serviceSpa.png')
+                
+                &.casino
+                    background-image: url('/services/serviceCasino.png')
 
-        .title 
-            font-family: Italianno
-            font-weight: 500
-            font-size: 6.8vw
-            color: var(--color-container)
-            padding-top: 2%
-            display: flex
-            align-items: center
+                &.info
+                    display: flex
+                    flex-direction: column
+                    justify-content: space-evenly
+                    background-color: #563F28
+                    width: 40%
+                    background-image: url('/services/vector.png')
 
-        .description 
-            font-family: Forum
-            color: var(--color-primary)
-            padding: 0 10%
-            font-size: 2vw
+                    .header 
+                        display: flex
+                        align-items: center
+                        margin: 0px 50px
 
-        .divDescription 
-            height: 45vh
-            overflow: hidden
-            padding-bottom: 8%
+                        .logo
+                            height: 12vh
 
-        .divExplore 
-            font-family: Cinzel
-            font-size: 2vw
-            border: 1px solid black
-            background-color: var(--color-primary)
-            height: 6vh
-            width: 80%
-            display: flex
-            justify-content: center
-            align-items: center
-            margin: auto            
+                        .title 
+                            padding: 0 25px
+                            margin: 0
+                            font-family: Italianno
+                            font-weight: 500
+                            font-size: 6.8vw
+                            color: var(--color-container)
+                            display: flex
+                            align-items: center
+                        
+                    .description 
+                        overflow: hidden
+                        margin: 0 50px
 
-        .divExplore:hover
-            background-color: #563F28
-            color: var(--color-primary) 
-            cursor: pointer
-            -webkit-backdrop-filter: blur(5px)
-            border: 1px solid rgba(255, 255, 255, 0.3)
+                        p 
+                            margin: 0
+                            font-family: Forum
+                            color: var(--color-primary)
+                            font-size: 2.1vw
 
-        .spa
-            justify-content: center
+                    .explore 
+                        font-family: Cinzel
+                        font-size: 2vw
+                        border: 1px solid black
+                        background-color: var(--color-primary)
+                        height: 6vh
+                        width: 80%
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        margin: 0 auto    
 
-        .spaContainer 
-            background-color: #563F28
-            height: 85vh
-            width: 35vw
-            background-image: url('/services/vector.png')
-            background-size: cover
-            background-position: center
-            background-repeat: no-repeat
-
-        .spaDiv 
-            padding-left: 3%
-            display: flex
-            align-items: center
-
-        .spaIMG
-            height: 85vh
-            padding-left: 2%
+                        &:hover
+                            background-color: #563F28
+                            color: var(--color-primary) 
+                            cursor: pointer
+                            -webkit-backdrop-filter: blur(5px)
+                            border: 1px solid rgba(255, 255, 255, 0.3)
+        

@@ -14,7 +14,7 @@ export default function RoomsCarroussel(props: { title: string }) {
         <a className={styles.see_all}>VER TODOS</a>
       </div>
       <div className={styles.carroussel}>
-        <Splide
+        <Splide             
           options={{
             type: "loop",
             focus: "center",
