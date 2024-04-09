@@ -20,6 +20,7 @@ export default function NavMenu(props) {
                 <Link href="/rooms">Alojamentos</Link>
                 <Link href="/services">Serviços</Link>
                 <Link href="/about">Sobre Nós</Link>
+                <Link href="/profile">Meu Perfil</Link>
             </div>
         </div>
     )

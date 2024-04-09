@@ -20,7 +20,7 @@ export default function Services() {
             </div>
             <div className={styles.description}>
               <p>Inserido num ambiente moderno e descontraído,
-                o Rooftop Bar encontra-se aberto ao grande público todos os dias e é a desculpa perfeita para saborear uma bebida refrescante,
+                o Rooftop Bar encontra-se aberto ao público diariamente e é a desculpa perfeita para saborear uma bebida refrescante,
                 com uma refeição ligeira enquanto descontrai no lindo centro da Cidade de Lisboa.</p>
             </div>
             <div className={styles.explore}>Explorar</div>
