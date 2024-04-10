@@ -33,15 +33,21 @@ export default function Profile() {
                   <Menu size={52} onClick={toggleNavMenu} />
                   <h1 onClick={toggleNavMenu}>MENU</h1>
                 </div>
-                <div className={styles.stroke}></div>
                 <img draggable="false" src="/logo.svg" />
               </div>
       </nav>
 
       <div className={styles.login}>
           <img src="/logo-dark.svg" className={styles.logo}/>
-          <input type="text" className={styles.input}/>
-          <input type="text" className={styles.input}/>
+          <h1>Login</h1>
+            <div className={styles.txt_stuff}>
+              <label>Email</label>
+              <input type="text" className={styles.input}/>
+            </div>
+            <div className={styles.txt_stuff}>
+              <label>Password</label>
+              <input type="text" className={styles.input}/>
+            </div>
 
 
       </div>
