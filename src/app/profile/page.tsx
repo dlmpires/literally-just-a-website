@@ -46,7 +46,7 @@ export default function Profile() {
             </div>
             <div className={styles.txt_stuff}>
               <label>Password</label>
-              <input type="text" className={styles.input}/>
+              <input type="password" className={styles.input}/>
             </div>
 
 
