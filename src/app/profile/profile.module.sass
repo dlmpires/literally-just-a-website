@@ -72,6 +72,7 @@
         &.hide
           opacity: 0
           visibility: hidden
+          transition: 1s ease out
 
       .input
           margin-top: 5vh
@@ -81,12 +82,15 @@
           border: none
           background: none
           outline: none
-          &:focus + label
-            opacity: 0
-            visibility: hidden
-            transition: opacity 0.5s linear
+          padding-left: 6px
+          font-size: 1rem
+          &::placeholder
+            font-weight: bolder
+            color: var(--color-text)
+            font-size: 0.9rem
 
-          
+
+
     .inputLogin
       width: 25vw
       margin-left: auto
@@ -109,10 +113,10 @@
           font-family: serif
           color: var(--color-secondary-dark)
 
-        
-
-
-
+.hidePass
+  position: absolute
+  top: 62%
+  left: 92%
     
    
 
