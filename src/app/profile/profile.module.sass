@@ -54,15 +54,56 @@
     opacity: 0.8
     text-align: center
 
-    .input
-        margin-top: 1vh
-        height: 5vh
-        width: 25vw    
-        border: var(--color-secondary) 1px solid
-        border-radius: 6px
+    .txt_field
+      position: relative
+      border-bottom: 2px solid var(--color-secondary)
+      width: 25vw
+      margin-right: auto
+      margin-left: auto
 
-        input::focus
-          display: none
+      & label
+        position: absolute
+        top: 65%
+        left: 2%
+        font-size: 1rem
+        font-weight: bolder
+        color: var(--color-text)
+        pointer-events: none
+        &.hide
+          opacity: 0
+          visibility: hidden
+
+      .input
+          margin-top: 5vh
+          height: 5vh
+          width: 25vw    
+          align-items: center
+          border: none
+          background: none
+          outline: none
+          &:focus + label
+            opacity: 0
+            visibility: hidden
+            transition: opacity 0.5s linear
+
+          
+    .inputLogin
+      width: 25vw
+      margin-left: auto
+      margin-right: auto
+      margin-top: 3vh
+      height: 5vh
+      background-color: var(--color-secondary) 
+      color: var(--color-text-gray)
+      font-weight: bolder
+      cursor: pointer
+      border: 1px solid var(--color-secondary-dark)
+      border-radius: 6px
+
+    .rememberMe
+      margin-right: auto
+      margin-left: 3.15vw
+      margin-top: 1vh
 
     h1
           font-family: serif
