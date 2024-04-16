@@ -71,7 +71,7 @@ export default function Profile() {
 
           <input type="submit" value="Login" className={styles.inputLogin} />
 
-          <div className={styles.signup}>Ainda não és membro? <a href="#">Regista-te!</a></div>
+          <div className={styles.signup}>Ainda não és membro? <a href="/register/">Regista-te!</a></div>
           <div>Ao registrares-te no nosso site, concordas com os nossos<a href="#"> Termos de Serviço</a> e <a href="#">Política de Privacidade</a></div>
 
         </div>

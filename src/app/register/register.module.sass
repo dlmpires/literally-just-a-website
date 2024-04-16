@@ -1,0 +1,144 @@
+.main
+    height: 100vh
+    width: 100%
+    background-image: url('/menu-background.png')
+    background-size: 100vw 100vh
+    background-repeat: no-repeat
+    background-position: center
+
+    .profile
+        width: 100%
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+        .nav
+          display: flex
+          justify-content: space-between
+          align-items: center
+          height: 15vh
+          width: 100%
+
+          .nav_container
+            display: flex
+            justify-content: space-between
+            align-items: center
+            width: 100vw
+
+            .menu
+              display: flex
+              align-items: center
+              font-family: "Italiana", serif
+              margin: 0 2vw
+              font-size: 3vh
+              color: var(--color-primary)
+
+            .stroke
+              position: relative
+              display: inline-block
+              width: 100%
+              margin: 0 1vw
+              border-top: 2px solid var(--color-primary)
+
+            img
+              margin: 0 2vw
+
+.register
+    display: flex
+    flex-direction: column
+    margin-left: 2.5vw
+    height: 80vh
+    width: 32vw
+    background-color: var(--color-primary)
+    border-radius: 1.5%
+    opacity: 0.8
+    text-align: center
+
+    .txt_field
+      position: relative
+      width: 28vw
+      margin-right: auto
+      margin-left: auto
+
+      input
+          border: 0
+          border-bottom: 2px solid var(--color-secondary)
+          margin-top: 4vh
+          height: 5vh
+          width: 27.4vw
+          align-items: center
+          background: none
+          outline: none
+          padding-left: 6px
+          font-size: 1rem
+          margin-left: auto
+          margin-right: auto
+          &::placeholder
+            font-weight: bolder
+            color: var(--color-text)
+            font-size: 0.9rem
+
+    .inputRegisto
+      width: 25vw
+      margin-left: auto
+      margin-right: auto
+      margin-top: 3vh
+      height: 5vh
+      background-color: var(--color-secondary) 
+      color: var(--color-text-gray)
+      font-weight: bolder
+      cursor: pointer
+      border: 1px solid var(--color-secondary-dark)
+      border-radius: 6px
+
+    h1
+          font-family: serif
+          color: var(--color-secondary-dark)
+
+.hidePass
+  position: absolute
+  top: 62%
+  left: 92%
+    
+   
+
+.logo
+  color: black
+  height: 15vh
+  margin-top: 3vh
+  
+.txt_stuff
+  display: flex
+  flex-direction: column
+  margin-left: 3vw
+  margin-bottom: 2vh
+
+  label
+    margin-right: auto
+
+.txt_field_names
+    display: flex
+    position: relative
+    gap: 2vw
+    width: 28vw    
+    margin-right: auto
+    margin-left: auto
+
+    input
+        border: 0
+        border-bottom: 2px solid var(--color-secondary)
+        margin-top: 5vh
+        height: 5vh
+        width: 15vw    
+        align-items: center
+        background: none
+        outline: none
+        padding-left: 6px
+        font-size: 1rem
+        overflow: hidden
+        &::placeholder
+            font-weight: bolder
+            color: var(--color-text)
+            font-size: 0.9rem
+                
+
