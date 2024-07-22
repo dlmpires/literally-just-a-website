@@ -7,5 +7,5 @@ The website will be focused on the frontend, meaning the goal is to create a smo
 The backend won't be the priority, meaning the website will have fewer backend functionalities.
 
 # Technologies
-Frontend: HTML, SASS, JavaScript<br>
+Frontend: HTML, SASS, JavaScript - Built in next.js<br>
 Backend: Express.js
