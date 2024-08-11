@@ -1,6 +1,6 @@
 'use client'
 import styles from "./register.module.sass";
-import Navbar from "../components/navbar/page.js"
+import Navbar from "../../components/navbar/page.js"
 import { useState } from "react";
 import dotenv from 'dotenv'
 
