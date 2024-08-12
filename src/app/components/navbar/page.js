@@ -21,7 +21,7 @@ export default function Navbar() {
 
             <div className={styles.accountDiv}>
                 <FontAwesomeIcon icon={faSearch} className={styles.searchButton}/>
-                <a className={styles.accountButton} href="#dashboard"><span>Account</span></a>
+                <a className={styles.accountButton} href="/auth/register"><span>Account</span></a>
             </div>
         </div>
     );
