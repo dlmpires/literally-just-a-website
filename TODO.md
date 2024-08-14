@@ -6,7 +6,7 @@
 
 ## FILE TREE:
 
-/literally-just-a-website
+```/literally-just-a-website
 |-- /public
 |-- /src
 |   |-- /app
@@ -24,4 +24,4 @@
 |-- globals.sass
 |-- layout.js
 |-- page.js
-|-- page.module.sass
+|-- page.module.sass```
