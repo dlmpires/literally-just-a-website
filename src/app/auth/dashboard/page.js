@@ -10,7 +10,7 @@ const server_url = process.env.NEXT_PUBLIC_SERVER_URL
 
 export default function Dashboard() {
 
-  const [message,setMessage] = useState('')
+  const [message, setMessage] = useState('')
   const router = useRouter()
 
   useEffect(() => {
@@ -32,15 +32,18 @@ export default function Dashboard() {
 
   return (
     <main className={styles.main}>
-      <Navbar/>
-      <div className={styles.Content}>
-        <h1>YOU ARE ON YOUR DASHBOARD :))</h1>
-        <h1>{message || 'Loading...'}</h1> {/* Display loading text until message is fetched */}
+        <Navbar />
+        <script>
+        <div className={styles.Content}>
+          <h1>YOU ARE ON YOUR DASHBOARD :))</h1>
+          <h1>{message || 'Loading...'}</h1> {/* Display loading text until message is fetched */}
 
-        <div>
-          <img className={styles.wip} src="/home/WIP.png" alt="Work in Process"/>
+          <div>
+            <img className={styles.wip} src="/home/WIP.png" alt="Work in Process" />
+          </div>
         </div>
-      </div>
+      </script>
+      <noscript>You dont have js :((</noscript>
     </main>
   );
 }
