@@ -1,6 +1,6 @@
 # TODO:
 
-- general chat room (socket.io)
+- finish chat room design and some twists in the backend
 - basic calculator
 - end auth pages design :)
 
