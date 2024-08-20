@@ -17,8 +17,25 @@ export async function getUserInfo() {
 
         const data = await res.json()
         return data
-        console.log(data)
     } catch (err) {
         console.log(err)
+    }
+}
+
+export async function isLoggedIn() {
+    try {
+        const res = await fetch(`${server_url}/dashboard`, {
+            method: 'GET',
+            credentials: 'include'
+        });
+
+        if (res.status === 401) {
+            return false
+        } else {
+            return true
+        }
+    } catch (err) {
+        console.log(err);
+        return 'There was an error, I’m sorry :(';
     }
 }
