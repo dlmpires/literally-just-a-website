@@ -35,7 +35,7 @@ export default function Dashboard() {
       setUserInfo(userInfo)
     }
     handleDashboard()
-  })
+  }, [])
   //Just so I dont have to constatly write userInfo.user :P
   const user = userInfo.user;
 
